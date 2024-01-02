@@ -32,7 +32,7 @@ class _MainPageState extends State<MainPage> {
 
     Widget customButtonNav() {
       return ClipRRect(
-        borderRadius: BorderRadius.vertical(
+        borderRadius: const BorderRadius.vertical(
           top: Radius.circular(30),
         ),
         child: BottomNavigationBar(

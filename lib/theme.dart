@@ -15,13 +15,15 @@ Color primaryTextColor = Color(0xffF1F0F2);
 Color secondaryTextColor = Color(0xff999999);
 Color subtitleColor = Color(0xff504F5E);
 Color extendColor = Color(0xff808191);
+Color transparentColor = Colors.transparent;
+Color blackColor = Color(0xff2E2E2E);
 
 TextStyle primaryTextStyle = GoogleFonts.poppins(
   color: primaryTextColor,
 );
 
 TextStyle secondaryTextStyle = GoogleFonts.poppins(
-  color: secondaryColor,
+  color: secondaryTextColor,
 );
 
 TextStyle subtitleTextStyle = GoogleFonts.poppins(
@@ -34,6 +36,14 @@ TextStyle priceTextStyle = GoogleFonts.poppins(
 
 TextStyle purpleTextStyle = GoogleFonts.poppins(
   color: primaryColor,
+);
+
+TextStyle blackTextStyle = GoogleFonts.poppins(
+  color: blackColor,
+);
+
+TextStyle thirdTextStyle = GoogleFonts.poppins(
+  color: secondaryTextColor,
 );
 
 FontWeight light = FontWeight.w300;
