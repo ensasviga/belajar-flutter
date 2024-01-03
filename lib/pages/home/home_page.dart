@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_application_1/theme.dart';
-import 'package:flutter_application_1/widgets/porduct_tile.dart';
+import 'package:flutter_application_1/widgets/product_tile.dart';
 import 'package:flutter_application_1/widgets/products_card.dart';
 
 class HomePage extends StatelessWidget {
