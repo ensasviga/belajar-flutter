@@ -28,6 +28,10 @@ TextStyle secondaryTextStyle = GoogleFonts.poppins(
   color: secondaryTextColor,
 );
 
+TextStyle alertTextStyle = GoogleFonts.poppins(
+  color: alertColor,
+);
+
 TextStyle subtitleTextStyle = GoogleFonts.poppins(
   color: subtitleColor,
 );
